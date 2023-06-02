@@ -127,16 +127,10 @@ Nifty, right!
 
 
 
-## Updating
+## Farben
 
-So you've got a copy running and there's some new update? Let's update!
+Rahmen: grau ON.00.69 #BCBDBB
+Öffnungsflügel – frisches Hellgrün – Nr. G8.60.70 #c3c20b
+Öffnungsflügel – Zitronengelb – Nr. G4.50.80 #edd645 oder warmes Gelb – Nr. G0.50.80 #fcd749 
+Öffnungsflügel – Hellgrau – Nr. ON.00.81 (Sikkens-Farbkarte) #d7d9d7 
 
-1. Checkout your github-pages branch
-  - `git checkout gh-pages` for a standalone or existing page
-  - `git checkout master` for a *username.github.io* page
-2. run `git remote | grep -q "singlepage" || git remote add -t publish singlepage https://github.com/t413/SinglePaged.git` to be sure you have access to this repository (you can run this command at any time).
-2. `git fetch singlepage` to fetch-in-place new changes.
-3. Update to the new base (using merge)
-    1. `git merge singlepage/publish`
-4. You can alternatively update using rebase. This *rewrites history* (**bad**), but it is cleaner.
-    1. `git rebase singlepage/publish`
